@@ -4,11 +4,10 @@ import com.example.app.Application;
 import com.example.factories.GUIFactory;
 import com.example.factories.MacFactory;
 import com.example.factories.windowsFactory;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CodeDesignApplication {
+public class AbstractFactoryDemo {
 
 	private static Application configApplication(){
 		Application application;
